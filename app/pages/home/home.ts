@@ -53,7 +53,7 @@ export class HomePage {
 
   addChecklist(): void {
     let prompt = this.alertCtrl.create({
-      title: 'A New event',
+      title: 'The New event',
       message: 'Enter your plan name and grab all your items in order and organized:',
       inputs: [
         {
