@@ -174,7 +174,7 @@ var HomePage = (function () {
     HomePage.prototype.addChecklist = function () {
         var _this = this;
         var prompt = this.alertCtrl.create({
-            title: 'A New event',
+            title: 'The New event',
             message: 'Enter your plan name and grab all your items in order and organized:',
             inputs: [
                 {
